@@ -1,0 +1,82 @@
+# Toronto profile values from Table S14 of the supplied compliance draft.
+# A 0/0 total-area range disables the total-area bound.
+house_classes:
+  - name: small
+    total_area:
+      min: 0.0
+      max: 0.0
+    rooms:
+      living_room:
+        area:
+          min: 13.5
+          max: 0.0
+        width:
+          min: 0.86
+          max: 0.0
+      bedroom:
+        master:
+          area:
+            min: 9.8
+            max: 0.0
+          width:
+            min: 0.76
+            max: 0.0
+        secondary:
+          area:
+            min: 7
+            max: 0.0
+          width:
+            min: 0.76
+            max: 0.0
+      kitchen:
+        area:
+          min: 4.2
+          max: 0.0
+        width:
+          min: 0.76
+          max: 0.0
+      bathroom:
+        master:
+          area:
+            min: 2.2
+            max: 0.0
+          width:
+            min: 0.81
+            max: 0.0
+        other:
+          area:
+            min: 2.2
+            max: 0.0
+          width:
+            min: 0.76
+            max: 0.0
+      balcony:
+        main:
+          area:
+            min: 2.2
+            max: 0.0
+          width:
+            min: 0.76
+            max: 0.0
+        service:
+          area:
+            min: 2.2
+            max: 0.0
+          width:
+            min: 0.76
+            max: 0.0
+
+depth_ratio:
+  min: 0.0
+  max: 0.0
+
+fire_corridor:
+  min: 0.0
+  max: 15.0
+
+topology:
+  entry:
+    require: false
+    allowed_entry_room_types: []
+  required: []
+  forbidden: []

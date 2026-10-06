@@ -1,0 +1,13 @@
+einops
+eppy>=0.5,<0.6
+natsort
+numpy
+opencv-python-headless
+open_clip_torch
+pandas==2.0.3
+Pillow
+PyYAML
+svgwrite
+timm
+torch
+torchvision

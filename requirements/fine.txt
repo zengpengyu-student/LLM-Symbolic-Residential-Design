@@ -1,0 +1,6 @@
+natsort
+numpy==1.24.2
+opencv-python-headless==4.7.0.72
+Pillow==10.3.0
+svgwrite
+torch==1.12.0

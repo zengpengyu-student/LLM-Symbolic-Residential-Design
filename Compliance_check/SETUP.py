@@ -1,0 +1,1 @@
+PIXELS_PER_M = 12  # 1 m ≈ 12 px

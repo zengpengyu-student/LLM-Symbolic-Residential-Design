@@ -1,0 +1,7 @@
+einops
+numpy
+opencv-python-headless
+open_clip_torch
+timm
+torch
+torchvision
